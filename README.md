@@ -21,6 +21,21 @@ This C program prompts the user to select one of three scheduling algorithms (FC
 - If Round-Robin is chosen, a timeline of quantum slices in the form `[t0–t1] Pid | [t1–t2] Pid | …`.
 
 ---
+## Exmaple 
+Algorithm (fcfs/sjf/rr): fcfs
+Processes (N): 3
+Enter pid arrival burst
+P1:  1 0 4
+P2:  2 1 3
+P3:  3 2 1
+
+Schedule (time units)
+PID  Arr  Burst  Start  Finish  Turn  Wait  Resp
+  1    0      4      0       4     4     0     0
+  2    1      3      4       7     6     3     3
+  3    2      1      7       8     6     5     5
+
+Averages → Turn: 5.33   Wait: 2.67   Resp: 2.67
 
 
 
