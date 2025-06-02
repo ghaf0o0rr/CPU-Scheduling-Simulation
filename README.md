@@ -25,9 +25,9 @@ This C program prompts the user to select one of three scheduling algorithms (FC
 - Algorithm (fcfs/sjf/rr): fcfs
 - Processes (N): 3
 - Enter pid arrival burst
-- P1:  1 0 4**
-- P2:  2 1 3**
-- P3:  3 2 1**
+- P1:  1 0 4
+- P2:  2 1 3
+- P3:  3 2 1
 
 - Schedule (time units)
 - PID  Arr  Burst  Start  Finish  Turn  Wait  Resp
