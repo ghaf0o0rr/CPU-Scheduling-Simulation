@@ -28,7 +28,6 @@ This C program prompts the user to select one of three scheduling algorithms (FC
 Below is a sample interactive session using the FCFS algorithm with three processes. 
 
 ```bash
-$ ./scheduler
 Algorithm (fcfs/sjf/rr): fcfs
 Processes (N): 3
 Enter pid arrival burst
